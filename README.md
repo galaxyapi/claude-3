@@ -9,7 +9,7 @@ It's also better at **roleplay** tasks if you're using it on **Sillytavern**, **
 - Easy Integration, suitable for any Frontend
 
 # Requirements
-- python3
+- python3 or nodejs
 - openai
 
 # Examples
