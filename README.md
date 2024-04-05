@@ -1,7 +1,8 @@
 # Free-claude-3
 
-Try **Claude-3-Haiku** for free, the fastest model of **Claude** family, you can use it through any front-end or through API at no cost.
-It's also better at **roleplay** tasks if you're using it on **Sillytavern**, **JanitorAI** etc.
+Meet **Claude 3 Haiku**, a speed demon that processes 30 pages in a blink, an intellect setting new benchmarks, and a visionary deciphering photos to technical diagrams. 
+It’s the epitome of cost-effective intelligence! 🚀
+With its knack for roleplay tasks, it’s your perfect companion! ✨
 
 # Features 🌟
 - Simple API (OpenAI)
@@ -17,7 +18,7 @@ It's also better at **roleplay** tasks if you're using it on **Sillytavern**, **
 Python
 ```python
 from openai import OpenAI
-client = OpenAI()
+client = OpenAI(apikey="galaxy-secret-key-here")
 client.base_url = "https://galaxyapi.onrender.com"
 
 completion = client.chat.completions.create(
