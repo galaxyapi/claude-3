@@ -1,4 +1,4 @@
-# Free-claude-3 ☁️
+# Claude-3 API ☁️
 
 Meet **Claude 3 Haiku**, a speed demon that processes 30 pages in a blink, an intellect setting new benchmarks, and a visionary deciphering photos to technical diagrams. 
 Perfect for **roleplaying** ✨
@@ -23,6 +23,25 @@ for Librechats, Sillytavern, JanitorAI etc.
 3. That's it!
 
 # Examples
+
+```bash
+curl https://galaxyapi.onrender.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $GALAXYAI_API_KEY" \
+  -d '{
+    "model": "claude-3-haiku-20240307",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello!"
+      }
+    ]
+  }'
+```
 Python
 ```python
 from openai import OpenAI
