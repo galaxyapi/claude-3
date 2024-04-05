@@ -11,6 +11,7 @@ It's also better at **roleplay** tasks if you're using it on **Sillytavern**, **
 # Requirements
 - python3 or nodejs
 - openai
+- Galaxy API Key [get here for free](https://discord.com/invite/rDfeS6Jf)
 
 # Examples
 Python
