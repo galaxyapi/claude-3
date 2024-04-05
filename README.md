@@ -1,8 +1,7 @@
-# Free-claude-3
+# Free-claude-3 ☁️
 
 Meet **Claude 3 Haiku**, a speed demon that processes 30 pages in a blink, an intellect setting new benchmarks, and a visionary deciphering photos to technical diagrams. 
-It’s the epitome of cost-effective intelligence! 🚀
-With its knack for roleplay tasks, it’s your perfect companion! ✨
+Perfect for **roleplaying** ✨
 
 # Features 🌟
 - Simple API (OpenAI)
