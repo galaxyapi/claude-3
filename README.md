@@ -79,4 +79,4 @@ async function main() {
 main();
 ```
 # ContactUS ✋
-Feel free to report the issue [here](https://discord.com/invite/rDfeS6Jf).
+Having Issues, Feel free to report it by creating the issue or report it [here](https://discord.com/invite/rDfeS6Jf).
