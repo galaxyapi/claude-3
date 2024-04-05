@@ -9,9 +9,18 @@ Perfect for **roleplaying** ✨
 - Easy Integration, suitable for any Frontend
 
 # Requirements
-- python3 or nodejs
-- openai
-- Galaxy API Key [get here for free](https://discord.com/invite/rDfeS6Jf)
+- python3 or nodejs (Optional)
+- openai (Optional)
+- Galaxy API Key [get here](https://discord.com/invite/rDfeS6Jf) 🆓
+
+# Front-End Integration
+If you're using it through any front-end, 
+for Librechats, Sillytavern, JanitorAI etc.
+
+1. Replace the Proxy url to
+```https://galaxyapi.onrender.com```
+2. Put your own galaxy API Key 🔐
+3. That's it!
 
 # Examples
 Python
@@ -36,7 +45,7 @@ NodeJS
 ```node
 import OpenAI from "openai";
 
-const openai = new OpenAI();
+const openai = new OpenAI("galaxy-secret-key-here");
 openai.base_url = "https://galaxyapi.onrender.com"
 
 async function main() {
@@ -50,3 +59,5 @@ async function main() {
 
 main();
 ```
+# ContactUS ✋
+Feel free to report the issue [here](https://discord.com/invite/rDfeS6Jf).
