@@ -46,7 +46,7 @@ Python
 ```python
 from openai import OpenAI
 client = OpenAI(apikey="galaxy-secret-key-here")
-client.base_url = "https://galaxyapi.onrender.com"
+client.base_url = "https://galaxyapi.onrender.com/v1"
 
 completion = client.chat.completions.create(
   model="claude-3-haiku-20240307",
@@ -57,15 +57,17 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message)
-
 ```
 
 NodeJS
-```node
+
+```js
 import OpenAI from "openai";
 
-const openai = new OpenAI("galaxy-secret-key-here");
-openai.base_url = "https://galaxyapi.onrender.com"
+const openai = new OpenAI({
+  apiKey: 'GALAXY_API_KEY',
+  baseURL: 'https://galaxyapi.onrender.com/v1'
+})
 
 async function main() {
   const completion = await openai.chat.completions.create({
