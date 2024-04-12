@@ -11,7 +11,7 @@ Perfect for **roleplaying** ✨
 # Requirements
 - python3 or nodejs (Optional)
 - openai (Optional)
-- Galaxy API Key [get here](https://discord.com/invite/rDfeS6Jf) 🆓
+- Galaxy API Key [get here](https://discord.com/invite/HGdtHgCMua) 🆓
 
 # Front-End Integration
 If you're using it through any front-end, 
